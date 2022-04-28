@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background: linear-gradient(-45deg, #f1d26a, #538380, #a57eec, #db5899);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    padding: 20 0 20 0;
+    border: 7px outset rgb(27, 10, 88);
+    background: linear-gradient(rgb(111, 211, 236), rgb(62, 89, 209));
+
+}
+
+h1{
+    
+    text-decoration: underline wavy rgb(77, 132, 235);
+  
+}
+.card{
+    background-color: lightgrey;
+    border: 4px dotted rgb(3, 3, 54);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
